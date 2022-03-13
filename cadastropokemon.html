@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Cadastro Pokemon</title>
+</head>
+<body>
+<h1>Cadastro Pokemon</h1>
+
+<form>
+
+<fieldset>
+ <legend>Dados do Pokémon:</legend>
+ <label for="numero"></label>
+<input id="campo-numero" type="number" name="numero">
+</fieldset>
+<br>
+<fieldset>
+<legend>Nome do Pokémon:</legend>
+ <label for="name"></label>       
+<input id="campo-nome" type="text" name="nome">
+</fieldset>
+<br>
+
+    <fieldset>
+    <legend>Escolha o tipo (1) de Pokémon:</legend>
+    
+    <select name="tipo1" id="tipo1" multiple size="9">
+        <option value="1">Aço</option>
+        <option value="2">Água</option>
+        <option value="3">Dragão</option>
+        <option value="4">Elétrico</option>
+        <option value="5">Fada</option>
+        <option value="6">Fantasma</option>
+        <option value="7">Fogo</option>
+        <option value="8">Gelo</option>
+        <option value="9">Inseto</option>
+        <option value="10">Lutador</option>
+        <option value="11">Normal</option>
+        <option value="12">Pedra</option>
+        <option value="13">Planta</option>
+        <option value="14">Psíquico</option>
+        <option value="15">Sombrio</option>
+        <option value="16">Terra</option>
+        <option value="17">Venenoso</option>
+        <option value="18">Voador</option>
+
+    </select>
+
+</fieldset>
+
+<br>
+
+    <fieldset>
+    <legend>Escolha o tipo (2) de Pokémon:</legend>
+    
+    <select name="tipo2" id="tipo2" multiple size="9">
+        <option value="">Não tem</option>
+        <option value="1">Aço</option>
+        <option value="2">Água</option>
+        <option value="3">Dragão</option>
+        <option value="4">Elétrico</option>
+        <option value="5">Fada</option>
+        <option value="6">Fantasma</option>
+        <option value="7">Fogo</option>
+        <option value="8">Gelo</option>
+        <option value="9">Inseto</option>
+        <option value="10">Lutador</option>
+        <option value="11">Normal</option>
+        <option value="12">Pedra</option>
+        <option value="13">Planta</option>
+        <option value="14">Psíquico</option>
+        <option value="15">Sombrio</option>
+        <option value="16">Terra</option>
+        <option value="17">Venenoso</option>
+        <option value="18">Voador</option>
+        
+    </select>
+    </fieldset>
+   
+    <br>
+
+<fieldset>
+<legend> Soma de todas as estatísticas básicas (Pontos de Vida, Ataque, Defesa, Ataque Especial, Defesa Especial e Velocidade):</legend>
+ <label for="soma"></label>       
+<input id="soma" type="number" name="soma">
+</fieldset>
+<br>
+
+<fieldset>
+    <legend> HP (Hit points ou Health points):</legend>
+     <label for="hp"></label>       
+    <input id="hp" type="number" name="hp">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend> Ataque:</legend>
+     <label for="atk"></label>       
+    <input id="atk" type="number" name="atk">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend> Defesa:</legend>
+     <label for="def"></label>       
+    <input id="def" type="number" name="def">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend> Ataque especial:</legend>
+     <label for="atke"></label>       
+    <input id="atke" type="number" name="atke">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend> Defesa especial:</legend>
+     <label for="defe"></label>       
+    <input id="defe" type="number" name="defe">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend> Velocidade:</legend>
+     <label for="vel"></label>       
+    <input id="vel" type="number" name="vel">
+    </fieldset>
+<br>
+
+<fieldset>
+    <legend>Escolha a geração do Pokémon:</legend>
+    
+    <select name="geracao" id="geracao" multiple size="5">
+        <option value="">Primeira</option>
+        <option value="1">Segunda</option>
+        <option value="2">Terceira</option>
+        <option value="3">Quarta</option>
+        <option value="4">Quinta</option>
+        <option value="5">Sexta</option>
+        <option value="6">Sétima</option>
+      
+    </select>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>O pokémon é lendário?</legend>
+        <ul>
+            <li>
+                <input type="radio" name="sim" id="sim" value="sim">
+                <label for="sim">Sim</label>
+            </li>
+            <li>
+                <input type="radio" name="nao" id="nao" value="nao">
+                <label for="nao">Não</label>
+            </li>
+    </ul>
+    </fieldset>
+    <br>
+
+<fieldset>
+    <legend>Cor do Pokémon:</legend>
+    
+    <select name="cor" id="cor" multiple size="5">
+        <option value="">Amarelo</option>
+        <option value="1">Azul</option>
+        <option value="2">Branco</option>
+        <option value="3">Cinza</option>
+        <option value="4">Marrom</option>
+        <option value="5">Preto</option>
+        <option value="6">Rosa</option>
+        <option value="7">Roxo</option>
+        <option value="8">Verde</option>
+        <option value="9">Vermelho</option>
+    </select>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend> Altura (m):</legend>
+         <label for="alt"></label>       
+        <input id="alt" type="number" name="alt">
+    </fieldset>
+
+    <fieldset>
+        <legend> Peso (kg):</legend>
+         <label for="kg"></label>       
+        <input id="kg" type="number" name="kg">
+    </fieldset>
+    
+    <fieldset>
+        <legend> Taxa de captura (até 255):</legend>
+         <label for="cap"></label>       
+        <input id="cap" type="number" name="cap">
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+
+</form>
+
+</body>
+
+</html>
